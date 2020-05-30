@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27187" started-at="2020-05-29T20:36:55 EDT" finished-at="2020-05-29T20:37:22 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27187" started-at="2020-05-29T20:36:55 EDT" finished-at="2020-05-29T20:37:22 EDT">
+      <class name="com.class04.HW">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class04.HW@72b6cbcc]" name="setUp" is-config="true" duration-ms="10996" started-at="2020-05-29T20:36:55 EDT" finished-at="2020-05-29T20:37:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class04.HW@72b6cbcc]" name="test" duration-ms="15458" started-at="2020-05-29T20:37:06 EDT" data-provider="getData" finished-at="2020-05-29T20:37:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rohani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sakhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rohani123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[AmirKhan_@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.class04.HW@72b6cbcc]" name="tearDown" is-config="true" duration-ms="677" started-at="2020-05-29T20:37:21 EDT" finished-at="2020-05-29T20:37:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.class04.HW -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
