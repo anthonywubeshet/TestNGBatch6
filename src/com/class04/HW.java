@@ -5,10 +5,11 @@ import org.testng.annotations.*;
 
 import com.utils.CommonMethods;
 import com.utils.ConfigsReader;
+import com.utils.ExcelUtility;
 
 public class HW extends CommonMethods{
 	
-	@Test(dataProvider = "getData")
+	@Test(dataProvider = "getData", groups = {"homework", "addEmp", "regression"})
 	public void test(String firstName,String lastName,String username, String password) {
 		//login into hrms
 		login.login(ConfigsReader.getProperty("username"), ConfigsReader.getProperty("password"));
@@ -52,4 +53,8 @@ public class HW extends CommonMethods{
 		return data;
 	}
 
+	@DataProvider(name = "userDataFromExcel")
+	public Object[][] getData2() {
+		return ExcelUtility.excelIntoArray("user.dir"+"testdata/Test.xlsx", "Employee");
+	}
 }
